@@ -1,0 +1,18 @@
+V -t * -v 1.0a5 -a 0
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
+c -t * -i 4 -n green
+c -t * -i 5 -n black
+c -t * -i 1 -n darkmagenta
+c -t * -i 2 -n yellow
+c -t * -i 3 -n blue
+n -t * -a 0 -s 0 -S UP -v hexagon -c black -i black
+n -t * -a 1 -s 1 -S UP -v circle -c black -i black
+n -t * -a 2 -s 2 -S UP -v hexagon -c black -i black
+l -t * -s 0 -d 1 -S UP -r 2000000 -D 0.050000000000000003 -c black -o right
+l -t * -s 1 -d 2 -S UP -r 2000000 -D 0.050000000000000003 -c black -o right
+n -t 0 -s 0 -S DLABEL -l "Server" -L ""
+n -t 0 -s 1 -S DLABEL -l "Router" -L ""
+n -t 0 -s 2 -S DLABEL -l "Client" -L ""
+n -t 0 -s 0 -S COLOR -c blue -o black -i blue -I black
+n -t 0 -s 2 -S COLOR -c blue -o black -i blue -I black
